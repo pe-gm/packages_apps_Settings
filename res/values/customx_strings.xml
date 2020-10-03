@@ -348,4 +348,8 @@
     <string name="gesture_navbar_category_title">Navigation bar</string>
     <string name="immersive_navigation_title">Immersive Navigation</string>
     <string name="immersive_navigation_summary">Hide the gesture pill and navigation bar padding.</string>
+
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
 </resources>

@@ -322,4 +322,8 @@
     <string name="navigation_bar_ime_space_title">IME button space</string>
     <string name="navigation_bar_ime_space_summary">Show IME button space below keyboard</string>
 
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Use black theme</string>
+    <string name="system_black_theme_summary">Force black background colors</string>
+
 </resources>

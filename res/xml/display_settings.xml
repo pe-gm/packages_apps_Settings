@@ -223,12 +223,6 @@
             android:summary="@string/summary_placeholder"
             android:title="@string/device_theme" />
 
-    <com.android.settings.custom.preference.SecureSettingSwitchPreference
-        android:key="system_black_theme"
-        android:title="@string/system_black_theme_title"
-        android:summary="@string/system_black_theme_summary"
-        android:defaultValue="false" />
-
         <Preference
             android:fragment="com.android.settings.display.VrDisplayPreferencePicker"
             android:key="vr_display_pref"

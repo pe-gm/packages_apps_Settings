@@ -133,4 +133,8 @@
     <string name="app_volume">App volume</string>
     <string name="app_volume_title">Per-app volume control</string>
     <string name="app_volume_summary">Add per-app volume button into volume dialog</string>
+
+    <!-- Theme -->
+    <string name="pitch_colors">Pitch black theme</string>
+    <string name="pitch_colors_summary">Pitch black theme for Settings, SystemUI, etc</string>    
 </resources>

@@ -36,6 +36,10 @@
         android:key="gesture_adaptive_playback_intro_text"
         android:title="@string/adaptive_playback_intro_text"/>
 
+    <com.android.settingslib.widget.TopIntroPreference
+        android:key="gesture_adaptive_playback_intro_text"
+        android:title="@string/adaptive_playback_intro_text"/>
+
     <PreferenceCategory
         android:key="sound_adaptive_playback_category"
         android:title="@string/adaptive_playback_timeout_title"

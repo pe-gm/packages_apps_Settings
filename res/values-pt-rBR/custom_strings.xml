@@ -114,4 +114,8 @@
     <string name="app_volume">Controle de som</string>
     <string name="app_volume_title">Controle de volume dos aplicativos</string>
     <string name="app_volume_summary">Adiciona o controle individual de volume para os aplicativos</string>
+
+    <!-- Theme -->
+    <string name="pitch_colors">Tema preto como breu</string>
+    <string name="pitch_colors_summary">Tema preto como breu para Configurações, SystemUI, etc</string>  
 </resources>

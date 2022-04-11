@@ -216,4 +216,8 @@
     <string name="package_details_group_title">Detalhes do pacote</string>
     <string name="package_name">Nome do pacote</string>
     <string name="package_version">Versão do pacote</string>
+
+     <!-- Notification log -->
+    <string name="notification_log_summary">Mostrar o histórico de noticações</string>
+
 </resources>

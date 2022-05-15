@@ -226,4 +226,17 @@
     <string name="search">Pesquisar</string>
     <string name="search_apps">Pesquisar aplicativos</string>
 
+    <!-- IME button space -->
+    <string name="navbar_category">Barra de navegação</string>
+    <string name="navigation_bar_ime_space_title">Espaço do botão IME</string>
+    <string name="navigation_bar_ime_space_summary">Mostrar espaço do botão IME abaixo do teclado</string>
+
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Usar tema preto</string>
+    <string name="system_black_theme_summary">Forçar cores de fundo pretas</string>
+
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Efeito cascata</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Mostrar efeito cascata no desbloqueio com impressão digital</string>
+
 </resources>

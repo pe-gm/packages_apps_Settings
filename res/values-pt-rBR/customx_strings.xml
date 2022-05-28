@@ -239,4 +239,8 @@
     <string name="enable_fingerprint_ripple_effect_title">Efeito cascata</string>
     <string name="enable_fingerprint_ripple_effect_summary">Mostrar efeito cascata no desbloqueio com impressão digital</string>
 
+    <!-- Arcane Idle Manager -->
+    <string name="arcane_idle_manager_title">Gerenciador ocioso</string>
+    <string name="arcane_idle_manager_summary">Interrompa todos os processos em segundo plano não essenciais quando o dispositivo estiver ocioso</string>
+
 </resources>

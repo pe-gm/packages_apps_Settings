@@ -349,4 +349,8 @@
     <string name="pattern_da_da_dzzz">da-da-dzzz</string>
     <string name="pattern_da_dzzz_da">da-dzzz-da</string>
 
+    <!-- Arcane Idle Manager -->
+    <string name="arcane_idle_manager_title">Idle Manager</string>
+    <string name="arcane_idle_manager_summary">Stop all non-essential background processes when the device is idle</string>
+
 </resources>

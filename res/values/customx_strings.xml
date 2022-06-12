@@ -391,4 +391,8 @@
     <!-- Display Settings: Subtitle of the setting which toggles wallpaper zooming effects on interraction -->
     <string name="wallpaper_zoom_effect_summary">Zoom the wallpaper in order to show zoom-out depth animation. Wallpapers may suffer quality decrease</string>
 
+    <!-- Data usage info in QS footer -->
+    <string name="qs_footer_datausage_title">Daily data usage in QS footer</string>
+    <string name="qs_footer_datausage_summary">Display daily data usage summary in quick settings footer</string>
+
 </resources>

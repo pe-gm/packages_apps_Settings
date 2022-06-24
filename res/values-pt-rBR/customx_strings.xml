@@ -243,4 +243,29 @@
     <string name="arcane_idle_manager_title">Gerenciador ocioso</string>
     <string name="arcane_idle_manager_summary">Interrompa todos os processos em segundo plano não essenciais quando o dispositivo estiver ocioso</string>
 
+    <!-- Custom Vibration fragment -->
+    <string name="vibration_intensity_preferences">Intensidade da vibração</string>
+    <string name="summary_vibration_intensity_preferences">Alterar intensidades de vibração</string>
+    <string name="keywords_vibration_preferences">padrão de vibração, intensidade de vibração, chamada, intensidade, haptics, toque, força de vibração</string>
+    <string name="ringtone_vibration_pattern">Padrão de vibração do toque</string>
+    <string name="vibration_intensity_ringer">Intensidade da vibração do toque</string>
+    <string name="vibration_intensity_notification">Intensidade de vibração de notificação</string>
+    <string name="haptic_feedback_intensity">Intensidade de feedback tátil</string>
+    <string name="vibration_intensity_disabled">Desabilitado</string>
+    <string name="vibration_intensity_light">Leve</string>
+    <string name="vibration_intensity_medium">Médio</string>
+    <string name="vibration_intensity_strong">Forte</string>
+    <string name="vibration_intensity_custom">Personalizado</string>
+
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ignorar sinalizadores de segurança da janela</string>
+    <string name="ignore_window_secure_summary">Isso remove os limites de capturas de tela e registros de tela para todos os aplicativos. Normalmente, as aplicações especiais são substituídas por áreas pretas nos registros. Isso pode ser conveniente em alguns casos, mas pode levar a vazamentos de privacidade. Depois de alterar essa alternância, talvez seja necessário reiniciar os aplicativos para que a alteração tenha efeito.</string>
+
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Toque para mostrar as informações</string>
+
+    <!-- Game Space -->
+    <string name="game_space_title">Espaço de jogo</string>
+    <string name="game_space_summary">Melhore sua experiência de jogo</string>
+
 </resources>

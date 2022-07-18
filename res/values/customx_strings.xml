@@ -46,9 +46,6 @@
     <string name="increasing_ring_min_volume_title">Start volume</string>
     <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
 
-    <!-- Lock screen cover art -->
-    <string name="lockscreen_media_art_title">Display media cover art</string>
-
     <!-- Advanced restart options -->
     <string name="advanced_reboot_title">Advanced restart</string>
     <string name="advanced_reboot_summary">When unlocked, include options in the power menu for restarting into recovery or bootloader</string>

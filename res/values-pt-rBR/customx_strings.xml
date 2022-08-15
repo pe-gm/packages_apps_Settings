@@ -297,4 +297,13 @@
     <string name="qs_footer_datausage_title">Uso diário de dados no rodapé do QS</string>
     <string name="qs_footer_datausage_summary">Exibir resumo diário de uso de dados no rodapé de configurações rápidas</string>
 
+    <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">Toque na impressão digital para desbloquear</string>
+    <string name="fingerprint_wake_unlock_touch">Escuta eventos enquanto a tela está desligada</string>
+    <string name="fingerprint_wake_unlock_press">Só ouve eventos quando a tela está ligada</string>
+
+    <!-- Wi-Fi Standard icon -->
+    <string name="show_wifi_standard_icon_title">Mostrar ícone padrão de Wi-Fi</string>
+    <string name="show_wifi_standard_icon_summary">Mostrar tipo de Wi-Fi no indicador de sinal Wi-Fi</string>
+
 </resources>

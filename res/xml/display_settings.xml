@@ -175,13 +175,6 @@
             android:defaultValue="0"
             settings:controller="com.android.settings.display.DisplayCutoutPreferenceController" />
 
-        <!-- Wi-Fi Standard icon -->
-    <com.android.settings.custom.preference.SecureSettingSwitchPreference
-        android:key="show_wifi_standard_icon"
-        android:title="@string/show_wifi_standard_icon_title"
-        android:summary="@string/show_wifi_standard_icon_summary"
-        android:defaultValue="false" /> 
-
         <SwitchPreference
             android:key="show_operator_name"
             android:summary="@string/show_operator_name_summary"

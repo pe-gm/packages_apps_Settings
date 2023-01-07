@@ -242,4 +242,16 @@
     <string name="adaptive_playback_timeout_5_min_summary">Ativado (5 minutos)</string>
     <string name="adaptive_playback_timeout_10_min">10 minutos</string>
     <string name="adaptive_playback_timeout_10_min_summary">Ativado (10 minutos)</string>
+    <string name="ignore_window_secure_title">Ignorar sinalizadores de segurança da janela</string>
+    <string name="ignore_window_secure_summary">Isso remove os limites de capturas de tela e registros de tela para todos os aplicativos. Normalmente, as aplicações especiais são substituídas por áreas pretas nos registros. Isso pode ser conveniente em alguns casos, mas pode levar a vazamentos de privacidade. Depois de alterar essa alternância, talvez seja necessário reiniciar os aplicativos para que a alteração tenha efeito.</string>
+    <string name="copied_to_clipboard">Copiado para a área de transferência</string>
+    <string name="longpress_to_clipboard">Pressione e segure para copiar</string>
+    <string name="usb_default_config_title">Configuração USB</string>
+    <string name="usb_default_config_summary">Escolha o comportamento padrão quando conectado a um dispositivo via USB</string>
+    <string name="game_space_title">Espaço de jogos</string>
+    <string name="game_space_summary">Melhore sua experiência de jogo</string>
+    <string name="reticker_title">reTicker</string>
+    <string name="reticker_summary">Substitua a notificação heads-up por uma versão fina e menos invasiva do ticker redesenhado</string>
+    <string name="reticker_colored_title">Use o plano de fundo colorido do aplicativo</string>
+    <string name="reticker_colored_summary">Substitua a cor de fundo do reTicker usando a cor principal do aplicativo de notificação</string>
 </resources>

@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.display
+package com.android.settings.security
 
 import android.annotation.SuppressLint
 import android.app.ActivityManager
@@ -42,25 +42,25 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 
-import com.android.internal.util.custom.cutout.CutoutFullscreenController
+import com.android.internal.util.custom.HideDeveloperStatusUtils
 
 import com.android.settings.R
 
 import com.google.android.material.appbar.AppBarLayout
 
-class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fullscreen_layout) {
+class HideDeveloperStatusSettings: Fragment(R.layout.hide_developer_status_layout) {
 
     private lateinit var activityManager: ActivityManager
     private lateinit var packageManager: PackageManager
     private lateinit var recyclerView: RecyclerView
     private lateinit var adapter: AppListAdapter
     private lateinit var packageList: List<PackageInfo>
-    private lateinit var cutoutForceFullscreenSettings: CutoutFullscreenController
     private lateinit var appBarLayout: AppBarLayout
 
     private var searchText = ""
     private var customFilter: ((PackageInfo) -> Boolean)? = null
     private var comparator: ((PackageInfo, PackageInfo) -> Int)? = null
+    private var hideDeveloperStatusUtils: HideDeveloperStatusUtils = HideDeveloperStatusUtils()
     private var showSystem = false
     private var optionsMenu: Menu? = null
 
@@ -82,11 +82,11 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
         activityManager = requireContext().getSystemService(ActivityManager::class.java)
         packageManager = requireContext().packageManager
         packageList = packageManager.getInstalledPackages(0)
-        cutoutForceFullscreenSettings = CutoutFullscreenController(requireContext());
+        hideDeveloperStatusUtils.setApps(requireContext())
     }
 
     private fun getTitle(): Int {
-        return R.string.display_cutout_force_fullscreen_title
+        return R.string.hide_developer_status_title
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -102,7 +102,7 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
      * @return an initial list of packages that should appear as selected.
      */
     private fun getInitialCheckedList(): List<String> {
-        val flattenedString = Settings.System.getString(
+        val flattenedString = Settings.Secure.getString(
             requireContext().contentResolver, getKey()
         )
         return flattenedString?.takeIf {
@@ -116,10 +116,10 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
             return;
         }
         optionsMenu = menu;
-        inflater.inflate(R.menu.cutout_force_fullscreen_menu, menu)
+        inflater.inflate(R.menu.hide_developer_status_menu, menu)
 
-        menu.findItem(R.id.show_system).setVisible(!showSystem);
-        menu.findItem(R.id.hide_system).setVisible(showSystem);
+        menu.findItem(R.id.show_system).setVisible(showSystem);
+        menu.findItem(R.id.hide_system).setVisible(!showSystem);
 
         val searchMenuItem = menu.findItem(R.id.search) as MenuItem
         searchMenuItem.setOnActionExpandListener(object: MenuItem.OnActionExpandListener {
@@ -190,9 +190,9 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
     private fun onListUpdate(packageName: String, isChecked: Boolean) {
         if (packageName.isBlank()) return
         if (isChecked) {
-            cutoutForceFullscreenSettings.addApp(packageName);
+            hideDeveloperStatusUtils.addApp(requireContext(), packageName);
         } else {
-            cutoutForceFullscreenSettings.removeApp(packageName);
+            hideDeveloperStatusUtils.removeApp(requireContext(), packageName);
         }
         try {
             activityManager.forceStopPackage(packageName);
@@ -201,7 +201,7 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
     }
 
     private fun getKey(): String {
-        return Settings.System.FORCE_FULLSCREEN_CUTOUT_APPS
+        return Settings.Secure.HIDE_DEVELOPER_STATUS
     }
 
     private fun refreshList() {
@@ -209,13 +209,13 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
             if (!showSystem) {
                 !it.applicationInfo.isSystemApp()
                 && !resources.getStringArray(
-                        R.array.cutout_force_fullscreen_hidden_apps)
+                        R.array.hide_developer_status_hidden_apps)
                             .asList().contains(it.applicationInfo.packageName)
+                && !it.applicationInfo.packageName.contains("android.settings")
             } else {
                 !resources.getStringArray(
-                    R.array.cutout_force_fullscreen_hidden_apps)
+                    R.array.hide_developer_status_hidden_apps)
                         .asList().contains(it.applicationInfo.packageName)
-                && !it.applicationInfo.packageName.contains("dialer")
                 && !it.applicationInfo.packageName.contains("android.settings")
                 && !it.applicationInfo.isResourceOverlay()
             }
@@ -251,7 +251,7 @@ class DisplayCutoutForceFullscreenSettings: Fragment(R.layout.cutout_force_fulls
 
         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) =
             AppListViewHolder(layoutInflater.inflate(
-                R.layout.cutout_force_fullscreen_list_item, parent, false))
+                R.layout.hide_developer_status_list_item, parent, false))
 
         override fun onBindViewHolder(holder: AppListViewHolder, position: Int) {
             getItem(position).let {

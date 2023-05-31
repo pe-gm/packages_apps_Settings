@@ -396,4 +396,8 @@
     <string name="volume_steps_voice_call_title">Voice Call</string>
     <string name="volume_steps_reset">Reset</string>
 
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Hide developer status from apps</string>
+
 </resources>

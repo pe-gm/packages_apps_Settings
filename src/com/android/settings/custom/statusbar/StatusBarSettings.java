@@ -44,7 +44,6 @@ public class StatusBarSettings extends SettingsPreferenceFragment
 
     private static final String CATEGORY_BATTERY = "status_bar_battery_key";
     private static final String CATEGORY_CLOCK = "status_bar_clock_key";
-    private static final String CATEGORY_BRIGHTNESS = "status_bar_brightness_category";
 
     private static final String ICON_BLACKLIST = "icon_blacklist";
 
@@ -67,11 +66,8 @@ public class StatusBarSettings extends SettingsPreferenceFragment
     private SystemSettingListPreference mStatusBarBattery;
     private SystemSettingListPreference mStatusBarBatteryShowPercent;
 
-    private SwitchPreference mStatusBarQsShowAutoBrightness;
-
     private PreferenceCategory mStatusBarBatteryCategory;
     private PreferenceCategory mStatusBarClockCategory;
-    private PreferenceCategory mStatusBarBrightnessCategory;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -94,13 +90,6 @@ public class StatusBarSettings extends SettingsPreferenceFragment
         mQuickPulldown = findPreference(STATUS_BAR_QUICK_QS_PULLDOWN);
         mQuickPulldown.setOnPreferenceChangeListener(this);
         updateQuickPulldownSummary(mQuickPulldown.getIntValue(0));
-
-        mStatusBarBrightnessCategory = getPreferenceScreen().findPreference(CATEGORY_BRIGHTNESS);
-        mStatusBarQsShowAutoBrightness = mStatusBarBrightnessCategory.findPreference(STATUS_BAR_QUICK_QS_SHOW_AUTO_BRIGHTNESS);
-        if (!getResources().getBoolean(
-                com.android.internal.R.bool.config_automatic_brightness_available)){
-            mStatusBarBrightnessCategory.removePreference(mStatusBarQsShowAutoBrightness);
-        }
     }
 
     @Override

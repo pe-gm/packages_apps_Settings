@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="device_info_protected_single_press">Tryck för att visa information</string>
     <string name="lock_settings_picker_pattern_size_message">Välj en mönsterstorlek</string>
     <string name="lockpattern_settings_enable_error_path_title">Visa mönster vid fel</string>
     <string name="lockpattern_settings_enable_dots_title">Visa mönsterpunkter</string>
@@ -207,6 +208,9 @@ Natt: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="wifi_hotspot_timeout_summary_5mins">5 minuter</string>
     <string name="wifi_hotspot_timeout_summary_10mins">10 minuter</string>
     <string name="wifi_hotspot_timeout_summary_30mins">30 minuter</string>
+    <string name="wifi_hotspot_timeout_summary_1hour">1 timme</string>
+    <string name="power_button_torch_title">Snabbficklampa</string>
+    <string name="power_button_torch_summary">När skärmen är avstängd, kommer långtryck på strömknappen att aktivera ficklampan</string>
     <string name="torch_long_press_power_timeout_title">Stäng av ficklampan automatiskt</string>
     <string name="torch_long_press_power_timeout_never">Aldrig</string>
     <string name="torch_long_press_power_timeout_1min">1 minut</string>
@@ -214,9 +218,17 @@ Natt: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="torch_long_press_power_timeout_5min">5 minuter</string>
     <string name="torch_long_press_power_timeout_10min">10 minuter</string>
     <string name="adaptive_playback_disabled_summary">Av</string>
+    <string name="adaptive_playback_timeout_title">Använd en tidsgräns på</string>
+    <string name="adaptive_playback_timeout_none">Ingen tidsgräns</string>
+    <string name="adaptive_playback_timeout_none_summary">På (ingen tidsgräns)</string>
     <string name="adaptive_playback_timeout_30_secs">30 sekunder</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">På (30 sekunder)</string>
     <string name="adaptive_playback_timeout_1_min">1 minut</string>
+    <string name="adaptive_playback_timeout_1_min_summary">På (1 minut)</string>
     <string name="adaptive_playback_timeout_2_min">2 minuter</string>
+    <string name="adaptive_playback_timeout_2_min_summary">På (2 minuter)</string>
     <string name="adaptive_playback_timeout_5_min">5 minuter</string>
+    <string name="adaptive_playback_timeout_5_min_summary">På (5 minuter)</string>
     <string name="adaptive_playback_timeout_10_min">10 minuter</string>
+    <string name="adaptive_playback_timeout_10_min_summary">På (10 minuter)</string>
 </resources>

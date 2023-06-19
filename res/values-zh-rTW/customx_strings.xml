@@ -13,7 +13,7 @@
     <string name="display_rotation_90_title">90 度</string>
     <string name="display_rotation_180_title">180 度</string>
     <string name="display_rotation_270_title">270 度</string>
-    <string name="increasing_ring_volume_option_title">遞增鈴聲音量</string>
+    <string name="increasing_ring_volume_option_title">漸強鈴聲音量</string>
     <string name="increasing_ring_min_volume_title">開始音量</string>
     <string name="increasing_ring_ramp_up_time_title">漸強時間</string>
     <string name="status_bar_double_tap_to_sleep_title">輕觸即可休眠</string>
@@ -22,7 +22,7 @@
     <string name="wake_when_plugged_or_unplugged_summary">接上或移除電源時開啟螢幕</string>
     <string name="app_notification_sound_timeout_title">通知音效之間的最短時間</string>
     <string name="app_notification_sound_timeout_summary_template">允許音效或震動每一次不超過 <xliff:g id="duration">%1$s</xliff:g></string>
-    <string name="app_notification_sound_timeout_value_none">沒有限制</string>
+    <string name="app_notification_sound_timeout_value_none">無限制</string>
     <string name="app_notification_sound_timeout_value_10_seconds">10 秒</string>
     <string name="app_notification_sound_timeout_value_30_seconds">30 秒</string>
     <string name="app_notification_sound_timeout_value_1_minute">1 分鐘</string>
@@ -100,7 +100,7 @@
     <string name="nav_bar_layout_inverse_summary">反轉導航欄按鈕佈局</string>
     <string name="navigation_bar_compact_layout_title">精簡配置</string>
     <string name="navigation_bar_compact_layout_summary">在導航欄中使用緊湊的佈局</string>
-    <string name="volbtn_music_controls_title">控制播放</string>
+    <string name="volbtn_music_controls_title">播放控制</string>
     <string name="volbtn_music_controls_summary">在顯示螢幕關閉時長按音量鍵可尋找音樂曲目</string>
     <string name="volume_answer_call_title">接聽電話</string>
     <string name="volume_answer_call_summary">按音量鍵接聽來電</string>
@@ -131,7 +131,7 @@
     <string name="live_display_outdoor_mode_title">自動戶外模式</string>
     <string name="live_display_outdoor_mode_summary">自動在陽光下提高亮度和飽和度</string>
     <string name="live_display_anti_flicker_title">防閃爍</string>
-    <string name="live_display_anti_flicker_summary">在缺乏光線下，防止大量閃爍並減少眼睛疲勞。 這可能會降低色彩準確性，並影響某些項目的顯示方式。</string>
+    <string name="live_display_anti_flicker_summary">在缺乏光線的環境下，防止大量閃爍並減少視覺疲勞。 這可能會降低色彩準確率，並影響某些項目顯示。</string>
     <string name="live_display_low_power_title">降低耗電</string>
     <string name="live_display_low_power_summary">在不降低亮度的情況下調整顯示即可降低耗電</string>
     <string name="live_display_enhance_color_title">增強色彩</string>
@@ -201,7 +201,7 @@
     <string name="wifi_hotspot_block_client_dialog_text">此操作將斷開「<xliff:g id="device_name">%1$s</xliff:g>」與此裝置的連線並將其新增至封鎖清單</string>
     <string name="wifi_hotspot_unblock_client_dialog_title">解除封鎖裝置</string>
     <string name="wifi_hotspot_unblock_client_dialog_text">此裝置「<xliff:g id="device_name">%1$s</xliff:g>」將能夠連線到此無線基地台</string>
-    <string name="wifi_hotspot_client_manager_footer_text">目前沒有可用的用戶端。如果可用，將在此處列出已連線和已封鎖的裝置。</string>
+    <string name="wifi_hotspot_client_manager_footer_text">目前沒有可用的裝置。有已連線或已封鎖的裝置時，將在此顯示。</string>
     <string name="wifi_hotspot_timeout_summary_never">永不</string>
     <string name="wifi_hotspot_timeout_summary_30secs">30 秒</string>
     <string name="wifi_hotspot_timeout_summary_1min">1 分鐘</string>

@@ -5,6 +5,7 @@
     <string name="max_refresh_rate_title">最大刷新率</string>
     <string name="fingerprint_enroll_find_sensor_message_front">指紋感應器位於手機正面</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">指紋感應器位於手機背面。</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">指紋感應器位於手機側面</string>
     <string name="fingerprint_enroll_touch_dialog_message_front">觸摸手機正面的傳感器。</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear">觸摸手機背部的傳感器。</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">觸摸手機側面的傳感器。</string>

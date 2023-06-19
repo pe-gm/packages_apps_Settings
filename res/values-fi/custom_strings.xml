@@ -5,6 +5,7 @@
     <string name="max_refresh_rate_title">Maksimi virkistystaajuus</string>
     <string name="fingerprint_enroll_find_sensor_message_front">Löydä sormenjälkitunnistin puhelimesi etuosasta.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Löydä sormenjälkitunnistin puhelimesi takakannesta.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Löydät sormenjälkitunnistimen puhelimesi reunasta.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front">Kosketa tunnistinta puhelimesi etupuolella.</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear">Kosketa sormenjälkitunnistinta takaosassa.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">Kosketa sivulla olevaa sormenjälkitunnistinta.</string>

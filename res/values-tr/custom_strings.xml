@@ -5,6 +5,7 @@
     <string name="max_refresh_rate_title">En yüksek yenileme hızı</string>
     <string name="fingerprint_enroll_find_sensor_message_front">Telefonunuzun önündeki parmak izi sensörünü bulun.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Telefonunuzun arkasındaki parmak izi sensörünü bulun.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Telefonunuzun yan tarafındaki parmak izi sensörünü bulun.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front">Telefonunuzun önünde bulunan parmak izi sensörüne dokunun.</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear">Telefonunuzun arkasında bulunan parmak izi sensörüne dokunun.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">Telefonunuzun yan tarafında bulunan parmak izi sensörüne dokunun.</string>

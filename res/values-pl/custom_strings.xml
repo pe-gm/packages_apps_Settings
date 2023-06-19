@@ -5,6 +5,7 @@
     <string name="max_refresh_rate_title">Maksymalna częstotliwość odświeżania</string>
     <string name="fingerprint_enroll_find_sensor_message_front">Zlokalizuj czytnik linii papilarnych z przodu twojego telefonu.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Zlokalizuj czytnik linii papilarnych z tyłu Twojego telefonu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Znajdź czytnik linii papilarnych na boku swojego telefonu.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front">Dotknij czytnia linii papilarnych z przodu twojego telefonu.</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear">Dotknij czytnia linii papilarnych z tyłu twojego telefonu.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">Dotknij czytnia linii papilarnych po twojej stronie telefonu.</string>

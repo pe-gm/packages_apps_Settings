@@ -5,6 +5,7 @@
     <string name="max_refresh_rate_title">Maximális képernyőfrissítés</string>
     <string name="fingerprint_enroll_find_sensor_message_front">Telefonja előlapján találhatja meg az ujjlenyomat-olvasót.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Telefonja hátlapján találhatja meg az ujjlenyomat-olvasót.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Telefonja oldalán találhatja meg az ujjlenyomat-olvasót.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front">Érintse meg a szenzort készüléke előlapján.</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear">Érintse meg a szenzort készüléke hátlapján.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">Érintse meg a szenzort készüléke oldalán.</string>

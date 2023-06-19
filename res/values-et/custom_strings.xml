@@ -5,6 +5,7 @@
     <string name="max_refresh_rate_title">Maksimaalne värskendussagedus</string>
     <string name="fingerprint_enroll_find_sensor_message_front">Leidke enda telefoni esiküljel olev sõrmejäljeandur.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Leidke telefoni tagaküljel olev sõrmejäljeandur.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Otsige üles oma telefoni küljel olev sõrmejäljeandur.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front">Puudutage telefoni esiküljel olevat andurit.</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear">Puudutage telefoni tagaküljel olevat andurit.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">Puudutage telefoni küljel olevat andurit.</string>

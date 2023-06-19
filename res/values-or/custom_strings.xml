@@ -3,8 +3,9 @@
     <string name="wifi_do_not_validate_eap_server_warning">କୌଣସି ସାର୍ଟିଫିକେଟ୍ ନିର୍ଦ୍ଦିଷ୍ଟ ହୋଇନାହିଁ। ଆପଣଙ୍କ ସଂଯୋଜନା ବ୍ୟକ୍ତିଗତ ହେବ ନାହିଁ।</string>
     <string name="min_refresh_rate_title">ସର୍ବନିମ୍ନ ସତେଜ ହାର |</string>
     <string name="max_refresh_rate_title">ସର୍ବାଧିକ ସତେଜ ହାର |</string>
-    <string name="fingerprint_enroll_find_sensor_message_front">ଆପଣଙ୍କ ଫୋନର ଆଗପଟେ ଟିପଚିହ୍ନ ସେନସର୍ ଖୋଜନ୍ତୁ।</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear">ଆପଣଙ୍କ ଫୋନର ପଛପଟେ ଟିପଚିହ୍ନ ସେନସର୍ ଖୋଜନ୍ତୁ।</string>
+    <string name="fingerprint_enroll_find_sensor_message_front">ଆପଣଙ୍କ ଫୋନ୍‌ର ଆଗପଟେ ଟିପଚିହ୍ନ ସେନସର୍ ଖୋଜିବା।</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear">ଆପଣଙ୍କ ଫୋନ୍‌ର ପଛପଟେ ଟିପଚିହ୍ନ ସେନସର୍ ଖୋଜିବା।</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">ଆପଣଙ୍କ ଫୋନ୍‌ର ପାର୍ଶ୍ୱରେ ଟିପଚିହ୍ନ ସେନସର୍ ଖୋଜିବା।</string>
     <string name="battery_light_title">ଚାର୍ଜ କଲାବେଳେ ଲାଇଟ୍ ଅନ୍ କରିବା</string>
     <string name="reset">ପୁନ Res ସେଟ୍ କରନ୍ତୁ |</string>
     <string name="button_pref_title">ବଟନ୍</string>

@@ -5,6 +5,7 @@
     <string name="max_refresh_rate_title">최대 화면 재생률</string>
     <string name="fingerprint_enroll_find_sensor_message_front">휴대전화 앞면에 있는 지문 센서를 찾으세요.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">기기의 뒷면에서 지문 인식 센서를 찾으세요.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">기기의 옆면에서 지문 인식 센서를 찾으세요.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front">휴대전화 앞에 있는 센서를 누르세요.</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear">휴대전화 뒷면에 있는 센서를 누르세요.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">휴대전화 옆면에 있는 센서를 누르세요.</string>

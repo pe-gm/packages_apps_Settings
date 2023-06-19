@@ -5,6 +5,7 @@
     <string name="max_refresh_rate_title">Μέγιστος ρυθμός ανανέωσης</string>
     <string name="fingerprint_enroll_find_sensor_message_front">Εντοπίστε τον αισθητήρα δακτυλικού αποτυπώματος στο εμπρόσθιο μέρος του τηλεφώνου σας.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Εντοπίστε τον αισθητήρα δακτυλικού αποτυπώματος στο πίσω μέρος του τηλεφώνου σας.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Εντοπίστε τον αισθητήρα δακτυλικών αποτυπωμάτων στο πλάι του τηλεφώνου σας.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front">Αγγίξτε τον αισθητήρα στο μπροστινό μέρος του τηλεφώνου σας.</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear">Αγγίξτε τον αισθητήρα στο πίσω μέρος του τηλεφώνου σας.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">Αγγίξτε τον αισθητήρα στο πλάι του τηλεφώνου σας.</string>

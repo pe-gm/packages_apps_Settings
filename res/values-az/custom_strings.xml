@@ -5,6 +5,7 @@
     <string name="max_refresh_rate_title">Minimum təzələnmə sürəti</string>
     <string name="fingerprint_enroll_find_sensor_message_front">Telefonunuzun ön tərəfindəki barmaq izi sensorunu tapın.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Telefonunuzun arxa tərəfindəki barmaq izi sensorunu tapın.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Telefonunuzun yan tərəfindəki barmaq izi sensorunu tapın.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front">Telefonunuzun ön tərəfindəki sensora toxunun.</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear">Telefonunuzun arxa tərəfindəki sensora toxunun.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">Telefonunuzun yan tərəfindəki sensora toxunun.</string>

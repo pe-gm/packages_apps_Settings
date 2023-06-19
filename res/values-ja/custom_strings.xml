@@ -5,10 +5,11 @@
     <string name="max_refresh_rate_title">最大リフレッシュレート</string>
     <string name="fingerprint_enroll_find_sensor_message_front">端末前面にある指紋認証センサーを探します</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">スマートフォン背面にある指紋認証センサーを探します</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">端末左側にある指紋認証センサーを探します</string>
     <string name="fingerprint_enroll_touch_dialog_message_front">スマートフォン前面にある指紋認証センサーをタッチします</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear">スマートフォン背面にある指紋認証センサーをタッチします</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">スマートフォン側面にある指紋認証センサーをタッチします</string>
-    <string name="battery_light_title">電池のライト</string>
+    <string name="battery_light_title">充電時にライト点灯</string>
     <string name="ambient_display_screen_off_udfps_title">指紋センサー長押しでロック解除</string>
     <string name="ambient_display_screen_off_udfps_summary">画面を起動してロックを解除するには、画面内指紋センサーを長押しして下さい。</string>
     <string name="storage_warning_internal">警告: このオプションは正常に動作しなかったりデータの消失に繋がる可能性がありますので、推奨いたしません。</string>

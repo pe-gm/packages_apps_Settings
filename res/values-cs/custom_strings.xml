@@ -5,6 +5,7 @@
     <string name="max_refresh_rate_title">Maximální obnovovací frekvence</string>
     <string name="fingerprint_enroll_find_sensor_message_front">Vyhledejte snímač otisků prstů na přední straně telefonu.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Vyhledejte snímač otisků prstů na zadní straně telefonu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Vyhledejte snímač otisků prstů na straně telefonu.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front">Dotkněte se senzoru na přední straně telefonu.</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear">Dotkněte se senzoru na zadní straně telefonu.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">Dotkněte se senzoru na boční straně telefonu.</string>

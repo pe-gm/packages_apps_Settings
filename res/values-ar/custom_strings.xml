@@ -5,6 +5,7 @@
     <string name="max_refresh_rate_title">معدل تحديث الشاشة الأدنى</string>
     <string name="fingerprint_enroll_find_sensor_message_front">حدد موقع مستشعر بصمة الإصبع في الجزء الأمامي من هاتفك.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">حدد موقع حساس البصمة خلف هاتفك.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">حدد موقع مستشعر بصمة الإصبع على جانب هاتفك.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front">المس مستشعر بصمة الإصبع في الجزء الأمامي من هاتفك.</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear">المس مستشعر البصمة على الجزء الخلفي من هاتفك.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">المس مستشعر البصمة على الجزء الجانبي من هاتفك.</string>

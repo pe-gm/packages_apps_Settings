@@ -5,6 +5,7 @@
     <string name="max_refresh_rate_title">Frequenza di aggiornamento massima</string>
     <string name="fingerprint_enroll_find_sensor_message_front">Individua il sensore d\'impronte digitali sulla parte anteriore del tuo telefono</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Individua il sensore d\'impronte sul retro del tuo telefono </string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Individua il sensore di impronte sulla parte laterale del tuo telefono.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front">Tocca il sensore sullo schermo del tuo dispositivo</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear">Tocca il sensore sul retro del telefono.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">Tocca il sensore sul lato del telefono.</string>

@@ -5,6 +5,7 @@
     <string name="max_refresh_rate_title">Tốc độ làm mới tối đa</string>
     <string name="fingerprint_enroll_find_sensor_message_front">Xác định vị trí của cảm biến vân tay ở mặt trước điện thoại của bạn.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Xác định vị trí của cảm biến vân tay ở mặt sau điện thoại của bạn.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Tìm cảm biến vân tay ở phía bên thiết bị của bạn</string>
     <string name="fingerprint_enroll_touch_dialog_message_front">Chạm vào cảm biến ở mặt trước điện thoại của bạn.</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear">Chạm vào cảm biến ở mặt sau điện thoại của bạn.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">Chạm vào cảm biến ở cạnh bên điện thoại của bạn.</string>

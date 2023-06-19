@@ -5,6 +5,7 @@
     <string name="max_refresh_rate_title">Максимальна частота оновлень</string>
     <string name="fingerprint_enroll_find_sensor_message_front">Знайдіть сканер відбитків пальців на передній панелі вашого смартфона.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Знайдіть датчик відбитків пальців на задній панелі телефону.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Знайдіть сканер відбитків пальців на бічній грані вашого смартфона.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front">Торкніть сканер спереду телефона.</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear">Торкніть сканер ззаду телефона.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">Торкніть сканер збоку телефона.</string>

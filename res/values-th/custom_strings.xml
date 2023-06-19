@@ -5,6 +5,7 @@
     <string name="max_refresh_rate_title">อัตรารีเฟรชสูงสุด</string>
     <string name="fingerprint_enroll_find_sensor_message_front">มองหาช่องอ่านลายนิ้วมือที่ด้านหน้าเครื่อง</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">มองหาช่องอ่านลายนิ้วมือที่ด้านหลังเครื่อง</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">ค้นหาเซนเซอร์ลายนิ้วมือข้างๆมือถือของคุณ</string>
     <string name="fingerprint_enroll_touch_dialog_message_front">แตะเซนเซอร์ที่ด้านหน้าโทรศัพท์ของคุณ</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear">แตะเซนเซอร์ที่ด้านหลังโทรศัพท์ของคุณ</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">แตะเซนเซอร์ที่ด้านข้างโทรศัพท์ของคุณ</string>

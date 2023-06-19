@@ -5,6 +5,7 @@
     <string name="max_refresh_rate_title">Максімальная частата абнаўлення экрана</string>
     <string name="fingerprint_enroll_find_sensor_message_front">Знайдзіце сканер адбіткаў пальцаў на задняй паверхні тэлефона.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Знайдзіце датчык адбіткаў пальцаў на задняй панэлі тэлефона.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Знайдзіце датчык адбіткаў пальцаў на бакавой панэлі тэлефона.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front">Дакраніцеся да сканеру адбіткаў пальцаў на пярэдняй панэлі тэлефона.</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear">Дакраніцеся да сканеру адбіткаў пальцаў на задняй панэлі тэлефона.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">Дакраніцеся да сканеру адбіткаў пальцаў на бакавой панэлі тэлефона.</string>

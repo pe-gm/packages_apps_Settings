@@ -5,6 +5,7 @@
     <string name="max_refresh_rate_title">Maksimalus atnaujinimo dažnis</string>
     <string name="fingerprint_enroll_find_sensor_message_front">Raskite pirštų atspaudų jutiklį savo telefono priekyje.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Raskite pirštų atspaudų jutiklį savo telefono gale.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Suraskite pirštų atspaudų jutiklį telefono šone.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front">Palieskite jutiklį telefono priekyje.</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear">Palieskite jutiklį telefono gale.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">Palieskite jutiklį telefono šone.</string>

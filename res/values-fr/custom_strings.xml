@@ -5,6 +5,7 @@
     <string name="max_refresh_rate_title">Taux de rafraîchissement maximum</string>
     <string name="fingerprint_enroll_find_sensor_message_front">Localisez le lecteur d\'empreintes digitales à l\'avant de votre téléphone.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Localisez le lecteur d\'empreintes digitales à l\'arrière de votre téléphone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Localisez le lecteur d\'empreintes digitales sur le côté de votre téléphone.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front">Touchez le capteur à l\'avant de votre téléphone.</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear">Touchez le capteur à l\'arrière de votre téléphone.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">Touchez le capteur sur le côté de votre téléphone.</string>

@@ -5,6 +5,7 @@
     <string name="max_refresh_rate_title">Maximale Bildwiederholrate</string>
     <string name="fingerprint_enroll_find_sensor_message_front">Finden Sie den Fingerabdrucksensor auf der Vorderseite des Telefons.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Fingerabdrucksensor auf der Rückseite Ihres Telefons suchen.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Den Fingerabdrucksensor an der Seite Ihres Telefons suchen.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front">Sensor auf der Vorderseite Ihres Telefons berühren.</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear">Sensor auf der Rückseite Ihres Telefons berühren.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">Sensor an der Seite Ihres Telefons berühren.</string>

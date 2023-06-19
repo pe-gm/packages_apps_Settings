@@ -5,6 +5,7 @@
     <string name="max_refresh_rate_title">Taxa de atualização máxima</string>
     <string name="fingerprint_enroll_find_sensor_message_front">Localize o sensor de impressão digital na parte frontal do seu telefone.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Localize o sensor de impressão digital na parte de trás do seu telefone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Localize o sensor de impressão digital na parte lateral do seu telefone.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front">Toque no sensor na parte frontal do seu telefone.</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear">Toque no sensor na parte traseira do seu telefone.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">Toque no sensor na lateral do seu telefone.</string>

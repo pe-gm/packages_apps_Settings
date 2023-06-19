@@ -5,12 +5,14 @@
     <string name="max_refresh_rate_title">Maximala uppdateringsfrekvensen</string>
     <string name="fingerprint_enroll_find_sensor_message_front">Hitta fingeravtryckssensorn på din telefons framsida.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Lokalisera fingeravtryckssensorn på baksidan av din telefon.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side">Leta reda på fingeravtryckssensorn på sidan av din telefon.</string>
     <string name="fingerprint_enroll_touch_dialog_message_front">Rör sensorn på framsidan av din telefon.</string>
     <string name="fingerprint_enroll_touch_dialog_message_rear">Rör sensorn på baksidan av din telefon.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side">Rör sensorn på sidan av din telefon.</string>
     <string name="battery_light_title">Ljussätt när laddning pågår</string>
     <string name="ambient_display_screen_off_udfps_title">Långtryck på fingeravtryckssensorn för att låsa upp enheten</string>
     <string name="ambient_display_screen_off_udfps_summary">För att väcka skärmen och låsa upp trycker du länge på fingeravtryckssensorn under skärmen.</string>
+    <string name="storage_warning_internal">Varning: Det här alternativet kanske inte fungerar som det ska eller leder till dataförlust och det rekommenderas därför inte!</string>
     <string name="reset">Återställ</string>
     <string name="button_pref_title">Knappar</string>
     <string name="hardware_keys_home_key_title">Hemknapp</string>
@@ -61,6 +63,7 @@
     <string name="high_touch_sensitivity_summary">Öka tryckskärmens känslighet så att den kan användas samtidigt som du bär handskar</string>
     <string name="touchscreen_hovering_title">Tryckskärm-hovring</string>
     <string name="touchscreen_hovering_summary">Låter dig hovra över skärmen som en mus i webbläsare, fjärrskrivbord, etc</string>
+    <string name="high_touch_polling_rate_summary">Öka skärmens responstid</string>
     <string name="keyboard_extras_title">Övrigt</string>
     <string name="advanced_keyboard_settings_title">Avancerade inställningar</string>
     <string name="fast_charging_title">Snabbladdning</string>

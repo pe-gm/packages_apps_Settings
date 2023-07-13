@@ -68,7 +68,8 @@ public class DisplaySettings extends DashboardFragment {
         super.onCreate(icicle);
 
         if (!getActivity().getResources().getBoolean(R.bool.config_show_smooth_display)
-           && !getActivity().getResources().getBoolean(R.bool.config_show_min_refresh_rate_switch)) {
+           && !getActivity().getResources().getBoolean(R.bool.config_show_refresh_rate_controls)
+           && !getActivity().getResources().getBoolean(R.bool.config_supports_dynamic_refresh_rate_controls)) {
             getPreferenceScreen().removePreference(findPreference(KEY_REFRESH_RATE_CATEGORY));
         }
     }

@@ -365,7 +365,7 @@
     <string name="longpress_to_clipboard">Long-press to copy</string>
 
     <!-- USB configuration -->
-    <string name="usb_default_config_title">USB configuration</string>
+    <string name="usb_default_config_title">USB</string>
     <string name="usb_default_config_summary">Choose the default behavior when connected to a device via USB</string>
 
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] --> 

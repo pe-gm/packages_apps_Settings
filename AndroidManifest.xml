@@ -1326,7 +1326,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.display.SmoothDisplayFragment" />
+                android:value="com.android.settings.display.DcDimmingSettings" />
             <meta-data android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
                        android:value="@string/menu_key_display"/>
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
@@ -1346,7 +1346,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.display.DcDimmingSettings" />
+                android:value="com.android.settings.display.SmoothDisplayFragment" />
             <meta-data android:name="com.android.settings.HIGHLIGHT_MENU_KEY"
                        android:value="@string/menu_key_display"/>
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
